@@ -7,7 +7,8 @@ interface Props{
 const Button:FC<Props> = ({children}) => {
   return (
     <button style={{
-        padding: '1em'
+        padding: '1em',
+        margin: '1em'
     }} >{children}</button>
   )
 }
